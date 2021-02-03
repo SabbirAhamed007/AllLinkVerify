@@ -1,0 +1,8 @@
+Feature: Test smoke macys
+
+  @tag1
+  Scenario: Test smoke scenario             [90m# SmokeMacys.feature:4[0m
+    [33mGiven [0m[33mI open chrome browser[0m
+    [33mAnd [0m[33mI type macys website[0m
+    [33mWhen [0m[33mI verify shop by department button[0m
+    [33mThen [0m[33mI close the browser[0m
